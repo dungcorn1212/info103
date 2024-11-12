@@ -1,0 +1,51 @@
+<?php
+
+# Version 1.0.0
+$lang['approvify'] = 'Genehmigungsmanagement';
+$lang['approvify_categories'] = 'Genehmigungstypen';
+$lang['approvify_create_categories'] = 'Genehmigungstypen erstellen';
+$lang['approvify_request'] = 'Neue Anfrage';
+$lang['approvify_my_requests'] = 'Meine Anfragen';
+$lang['approvify_review_requests'] = 'Anfragen überprüfen';
+$lang['approvify_create_type'] = 'Typ erstellen';
+$lang['approvify_table_type_name'] = 'Typname';
+$lang['approvify_table_type_description'] = 'Typbeschreibung';
+$lang['approvify_table_type_icon'] = 'Typsymbol';
+$lang['approvify_table_approve_list'] = 'Genehmigungsliste';
+$lang['approvify_table_is_active'] = 'Ist aktiv';
+$lang['approvify_table_created_at'] = 'Erstellt am';
+$lang['approvify_category_description'] = 'Typbeschreibung';
+$lang['approvify_category_name'] = 'Typname';
+$lang['approvify_category_icon'] = 'Typsymbol (fontawesome.com)';
+$lang['approvify_approvers'] = 'Genehmigende';
+$lang['approvify_failed_to_create_type'] = 'Fehler beim Erstellen des Typs!';
+$lang['approvify_failed_to_update_type'] = 'Fehler beim Aktualisieren des Typs!';
+$lang['approvify_create_request'] = 'Anfrage erstellen';
+$lang['approvify_manage_requests'] = 'Anfragen verwalten';
+$lang['approvify_request_category'] = 'Anfragetyp';
+$lang['approvify_no_request_found'] = 'Keine Anfrage gefunden!';
+$lang['approvify_search_based_on_request_title'] = 'Suche nach Anfragetitel';
+$lang['approvify_request_title'] = 'Anfragetitel';
+$lang['approvify_request_content'] = 'Anfrageinhalt';
+$lang['approvify_request_status'] = 'Anfragestatus';
+$lang['approvify_request_reviewers'] = 'Anfrageprüfer';
+$lang['approvify_request_attachments'] = 'Anlagen zur Anfrage';
+$lang['approvify_request_activity'] = 'Anfrageaktivität';
+$lang['approvify_request_information'] = 'Anfrageinformationen';
+$lang['approvify_submitted_status'] = 'Eingereicht';
+$lang['approvify_approved_status'] = 'Genehmigt';
+$lang['approvify_refused_status'] = 'Abgelehnt';
+$lang['approvify_canceled_status'] = 'Abgebrochen';
+$lang['approvify_btn_canceled_status'] = 'Anfrage abbrechen';
+$lang['approvify_btn_approve_status'] = 'Anfrage genehmigen';
+$lang['approvify_btn_refuse_status'] = 'Anfrage ablehnen';
+$lang['approvify_new_request_from_staff'] = 'Neue Anfrage von %s - Anfragetitel | %s';
+$lang['approvify_empty_activity_log'] = 'Es gibt keine aufgezeichnete Aktivitätsprotokolle für diese Anfrage.';
+$lang['approvify_empty_request_attachments'] = 'Es gibt keine Anlagen für diese Anfrage.';
+$lang['approvify_request_approved'] = 'Ihre Anfrage %s - wurde von %s genehmigt';
+$lang['approvify_request_refused'] = 'Ihre Anfrage %s - wurde von %s abgelehnt';
+$lang['approvify_requested_by'] = 'Angefragt von';
+$lang['approvify_requests_review'] = 'Anfragen des Approvify-Personals überprüfen';
+$lang['approvify_mod_name'] = 'Approvify';
+$lang['approvify_no_types'] = 'Es stehen keine Anfragetypen zur Verfügung. Bitte navigieren Sie zu <a href="'.admin_url('approvify/manage_types').'">Genehmigungstypen</a> und erstellen Sie neue Anfragetypen oder aktivieren Sie vorhandene.';
+

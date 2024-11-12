@@ -1,0 +1,51 @@
+<?php
+
+# Version 1.0.0
+
+$lang['approvify'] = 'Gestion des Approbations';
+$lang['approvify_categories'] = 'Types d\'approbation';
+$lang['approvify_create_categories'] = 'Créer des types d\'approbation';
+$lang['approvify_request'] = 'Nouvelle demande';
+$lang['approvify_my_requests'] = 'Mes demandes';
+$lang['approvify_review_requests'] = 'Examiner les demandes';
+$lang['approvify_create_type'] = 'Créer un type';
+$lang['approvify_table_type_name'] = 'Nom du type';
+$lang['approvify_table_type_description'] = 'Description du type';
+$lang['approvify_table_type_icon'] = 'Icône du type';
+$lang['approvify_table_approve_list'] = 'Liste d\'approbation';
+$lang['approvify_table_is_active'] = 'Est actif';
+$lang['approvify_table_created_at'] = 'Créé à';
+$lang['approvify_category_description'] = 'Description du type';
+$lang['approvify_category_name'] = 'Nom du type';
+$lang['approvify_category_icon'] = 'Icône du type (fontawesome.com)';
+$lang['approvify_approvers'] = 'Approbateurs';
+$lang['approvify_failed_to_create_type'] = 'Échec de la création du type !';
+$lang['approvify_failed_to_update_type'] = 'Échec de la mise à jour du type !';
+$lang['approvify_create_request'] = 'Créer une demande';
+$lang['approvify_manage_requests'] = 'Gérer les demandes';
+$lang['approvify_request_category'] = 'Type de demande';
+$lang['approvify_no_request_found'] = 'Aucune demande trouvée !';
+$lang['approvify_search_based_on_request_title'] = 'Recherche basée sur le titre de la demande';
+$lang['approvify_request_title'] = 'Titre de la demande';
+$lang['approvify_request_content'] = 'Contenu de la demande';
+$lang['approvify_request_status'] = 'Statut de la demande';
+$lang['approvify_request_reviewers'] = 'Relecteurs de la demande';
+$lang['approvify_request_attachments'] = 'Pièces jointes de la demande';
+$lang['approvify_request_activity'] = 'Activité de la demande';
+$lang['approvify_request_information'] = 'Informations sur la demande';
+$lang['approvify_submitted_status'] = 'Soumis';
+$lang['approvify_approved_status'] = 'Approuvé';
+$lang['approvify_refused_status'] = 'Refusé';
+$lang['approvify_canceled_status'] = 'Annulé';
+$lang['approvify_btn_canceled_status'] = 'Annuler la demande';
+$lang['approvify_btn_approve_status'] = 'Approuver la demande';
+$lang['approvify_btn_refuse_status'] = 'Refuser la demande';
+$lang['approvify_new_request_from_staff'] = 'Nouvelle demande de la part de %s - Titre de la demande | %s';
+$lang['approvify_empty_activity_log'] = 'Il n\'y a aucun journal d\'activité enregistré pour cette demande.';
+$lang['approvify_empty_request_attachments'] = 'Il n\'y a aucune pièce jointe pour cette demande.';
+$lang['approvify_request_approved'] = 'Votre demande %s - a été approuvée par %s';
+$lang['approvify_request_refused'] = 'Votre demande %s - a été refusée par %s';
+$lang['approvify_requested_by'] = 'Demandé par';
+$lang['approvify_requests_review'] = 'Examiner les demandes du personnel Approvify';
+$lang['approvify_mod_name'] = 'Approvify';
+$lang['approvify_no_types'] = 'Il n\'y a aucun type de demande disponible, veuillez vous rendre sur <a href="'.admin_url('approvify/manage_types').'">Types d\'approbation</a> et créer un nouveau type de demande ou activer les types existants.';

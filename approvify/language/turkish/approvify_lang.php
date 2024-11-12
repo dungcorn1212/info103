@@ -1,0 +1,51 @@
+<?php
+
+# Sürüm 1.0.0
+
+$lang['approvify'] = 'Onay Yönetimi';
+$lang['approvify_categories'] = 'Onay Türleri';
+$lang['approvify_create_categories'] = 'Onay Türleri Oluştur';
+$lang['approvify_request'] = 'Yeni İstek';
+$lang['approvify_my_requests'] = 'Benim İsteklerim';
+$lang['approvify_review_requests'] = 'İstekleri İncele';
+$lang['approvify_create_type'] = 'Tür Oluştur';
+$lang['approvify_table_type_name'] = 'Tür Adı';
+$lang['approvify_table_type_description'] = 'Tür Açıklaması';
+$lang['approvify_table_type_icon'] = 'Tür İkonu';
+$lang['approvify_table_approve_list'] = 'Onay Listesi';
+$lang['approvify_table_is_active'] = 'Aktif mi';
+$lang['approvify_table_created_at'] = 'Oluşturulma Tarihi';
+$lang['approvify_category_description'] = 'Tür Açıklaması';
+$lang['approvify_category_name'] = 'Tür Adı';
+$lang['approvify_category_icon'] = 'Tür İkonu (fontawesome.com)';
+$lang['approvify_approvers'] = 'Onaylayanlar';
+$lang['approvify_failed_to_create_type'] = 'Tür Oluşturma Başarısız!';
+$lang['approvify_failed_to_update_type'] = 'Tür Güncelleme Başarısız!';
+$lang['approvify_create_request'] = 'İstek Oluştur';
+$lang['approvify_manage_requests'] = 'İstekleri Yönet';
+$lang['approvify_request_category'] = 'İstek Türü';
+$lang['approvify_no_request_found'] = 'İstek Bulunamadı!';
+$lang['approvify_search_based_on_request_title'] = 'İstek Başlığına Göre Ara';
+$lang['approvify_request_title'] = 'İstek Başlığı';
+$lang['approvify_request_content'] = 'İstek İçeriği';
+$lang['approvify_request_status'] = 'İstek Durumu';
+$lang['approvify_request_reviewers'] = 'İstek İnceleyenler';
+$lang['approvify_request_attachments'] = 'İstek Ekleri';
+$lang['approvify_request_activity'] = 'İstek Aktivitesi';
+$lang['approvify_request_information'] = 'İstek Bilgileri';
+$lang['approvify_submitted_status'] = 'Gönderildi';
+$lang['approvify_approved_status'] = 'Onaylandı';
+$lang['approvify_refused_status'] = 'Reddedildi';
+$lang['approvify_canceled_status'] = 'İptal Edildi';
+$lang['approvify_btn_canceled_status'] = 'İstek İptal Et';
+$lang['approvify_btn_approve_status'] = 'İstek Onayla';
+$lang['approvify_btn_refuse_status'] = 'İstek Reddet';
+$lang['approvify_new_request_from_staff'] = '%s - İstek Başlığı | %s İstekten Yeni';
+$lang['approvify_empty_activity_log'] = 'Bu istek için kaydedilmiş bir aktivite günlüğü yok.';
+$lang['approvify_empty_request_attachments'] = 'Bu istek için ekler yok.';
+$lang['approvify_request_approved'] = 'İsteğiniz %s - %s tarafından onaylandı';
+$lang['approvify_request_refused'] = 'İsteğiniz %s - %s tarafından reddedildi';
+$lang['approvify_requested_by'] = 'Tarafından İstenilen';
+$lang['approvify_requests_review'] = 'Approvify İnceleme Personel İstekleri';
+$lang['approvify_mod_name'] = 'Approvify';
+$lang['approvify_no_types'] = 'Mevcut istek türleri bulunmamaktadır. Lütfen <a href="'.admin_url('approvify/manage_types').'">Onay Türleri</a>ne gidin ve yeni istek türleri oluşturun veya mevcut olanları etkinleştirin.';
